@@ -64,3 +64,10 @@ end
 % end
 
 
+Add function as a separate file f.m
+
+function y=f(x)
+% modify this - write your own function!
+%y=x^3-2*x-5;
+y=exp(x)+x^2;
+%y=x^4+2*x+4;
